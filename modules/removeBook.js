@@ -1,4 +1,6 @@
 import Book from './book.js';
+
+/* eslint-disable import/no-cycle */
 import Show from './show.js';
 
 const removeBook = (index) => {

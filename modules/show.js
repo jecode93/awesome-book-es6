@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import removeBook from './removeBook.js';
 
 export default function Show() {

@@ -36,6 +36,6 @@ export default function Show() {
       }
     });
   }
-};
+}
 
 window.removeBook = removeBook; // Add to make the removeBook function global

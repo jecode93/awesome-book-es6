@@ -1,7 +1,7 @@
 /* eslint-disable import/no-cycle */
 import removeBook from './removeBook.js';
 
-export default function Show() {
+const show = () => {
   document.querySelector('.books').style.display = 'flex';
   document.querySelector('.contact').style.display = 'none';
 
@@ -38,5 +38,7 @@ export default function Show() {
     });
   }
 }
+
+export default show;
 
 window.removeBook = removeBook; // Add to make the removeBook function global

@@ -9,7 +9,7 @@ export default class Book {
     books.push(this);
     localStorage.setItem('books', JSON.stringify(books));
   }
-  
+
   /* eslint-disable class-methods-use-this */
   removeBook(index) {
     const books = JSON.parse(localStorage.getItem('books')) || [];

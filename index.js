@@ -1,9 +1,9 @@
-import { addBook } from './modules/addBook.js';
-import { showList } from './modules/showList.js';
-import { showAdd } from './modules/showAdd.js';
-import { showContact } from './modules/showContact.js';
-import Show from './modules/show.js';
-import showTime from './modules/date.js';
+import  addBook  from './modules/addBook.js';
+import showList from '/modules/showList.js';
+import showAdd from '/modules/showAdd.js';
+import showContact from '/modules/showContact.js';
+import Show from '/modules/show.js';
+import showTime from '/modules/date.js';
 
 // Add book to localStorage
 const addBookButton = document.querySelector('.add-books');

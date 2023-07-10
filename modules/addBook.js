@@ -1,5 +1,4 @@
-import Book from '/modules/book.js';
-
+import Book from '../modules/book.js';
 
 const titleInput = document.querySelector('.title-value');
 const authorInput = document.querySelector('.author-value');

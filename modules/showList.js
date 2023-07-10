@@ -1,4 +1,4 @@
-import Show from "/modules/show.js";
+import Show from '../modules/show.js';
 
 export const showList = () => {
   document.querySelector('.books').style.display = 'flex';
@@ -6,4 +6,4 @@ export const showList = () => {
   Show();
   // Hide the add book form
   document.querySelector('.create-book').style.display = 'none';
-}
+};

@@ -1,4 +1,4 @@
-import { removeBook } from "/modules/removeBook.js";
+import { removeBook } from "../modules/removeBook.js";
 
 export default function Show() {
   document.querySelector('.books').style.display = 'flex';

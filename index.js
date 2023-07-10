@@ -9,15 +9,15 @@ import showTime from './modules/date.js';
 const addBookButton = document.querySelector('.add-books');
 addBookButton.addEventListener('click', addBook);
 
-//Show list book section
+// Show list book section
 const listBookElement = document.querySelector('#list-book');
 listBookElement.addEventListener('click', showList);
 
-//Show add book section
+// Show add book section
 const addBookElement = document.querySelector('#add-new');
 addBookElement.addEventListener('click', showAdd);
 
-//Show contact section
+// Show contact section
 const contactElement = document.querySelector('#contact');
 contactElement.addEventListener('click', showContact);
 
@@ -25,8 +25,8 @@ contactElement.addEventListener('click', showContact);
 document.querySelector('.contact').style.display = 'none';
 document.querySelector('.create-book').style.display = 'none';
 
-//Show time 
+// Show time
 showTime();
 
-//Show list book to main page
+// Show list book to main page
 Show();
